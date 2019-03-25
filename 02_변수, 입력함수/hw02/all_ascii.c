@@ -10,7 +10,7 @@ int main()
 	for(i=0; i<260; i++)
 	{	
 		c=i;
-		printf("%cì ASCIIì½ëë %d ë¤.\n", c,i);
+		printf("%c의 ASCII코드는 %d 다.\n", c,i);
 	}
 
 

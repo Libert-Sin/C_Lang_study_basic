@@ -4,10 +4,10 @@ main()
 {
 	int i,j;
 
-	printf("ëê° ì°¨ë¡ë¡ ìë ¥ ëì´ \n>");
+	printf("두개 차례로 입력 띄어 \n>");
 	scanf("%d %d", &i, &j);
 
-	printf("ë ë¼ë.... i=%d j=%d \n", i,j);
+	printf("될라나.... i=%d j=%d \n", i,j);
 
 
 }

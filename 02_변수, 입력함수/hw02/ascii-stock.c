@@ -6,9 +6,9 @@ main()
 {
 	char c;
 
-	printf("íëë§ ì¨ë¼\n > ");
+	printf("하나만 써라\n > ");
 	scanf("%c", &c);
 
-	printf("\"%c\"ì ASCIIì½ëë \"%d\" ë¤.\n", c,c);
+	printf("\"%c\"의 ASCII코드는 \"%d\" 다.\n", c,c);
 
 }

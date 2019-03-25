@@ -11,5 +11,5 @@ main()
 	mmr=&i;
 
 	for(;1;mmr++)
-		printf("ë©ëª¨ë¦¬ ì£¼ì : %u \t ê° : %x\n",mmr,*mmr);
+		printf("메모리 주소 : %u \t 값 : %x\n",mmr,*mmr);
 }

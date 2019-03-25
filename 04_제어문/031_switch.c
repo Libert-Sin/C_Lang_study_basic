@@ -4,7 +4,7 @@ main()
 {
 	int i;
 
-	printf("\n1~5 ì¤ íë : ");
+	printf("\n1~5 중 하나 : ");
 	scanf("%d", &i);
 
 	switch (i)

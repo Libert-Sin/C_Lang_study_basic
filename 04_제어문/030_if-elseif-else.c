@@ -4,28 +4,27 @@ main()
 {
         int i,j;
 
-        printf("\nì«ì1 : ");
+        printf("\n숫자1 : ");
         scanf("%d",&i);
 
-        printf("\nì«ì2 : ");
+        printf("\n숫자2 : ");
         scanf("%d",&j);
 
         if(i>j)
         {
-                printf("ë í°ì : %d \n", i);
+                printf("더 큰수 : %d \n", i);
         }
 
         else if(j>i)
         {
-                printf("ë í°ì : %d \n", j);
+                printf("더 큰수 : %d \n", j);
         }
 
 	else
 	{
-		printf("ê³ì° ë¶ê°\n");
+		printf("계산 불가\n");
 	}
 
 
 
 }
-

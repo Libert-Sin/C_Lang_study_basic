@@ -16,10 +16,10 @@ main()
 	
 	float r1,r2;	
 
-	printf("\nì²«ë²ì§¸ ì°ì°(m1)ì ì¬ì©í  ì 2ê° (ëìì¼ë¡ êµ¬ë¶) : ");
+	printf("\n첫번째 연산(m1)에 사용할 수 2개 (띄움으로 구분) : ");
 	scanf("%d %d", &i, &j);
 
-	printf("\nëë²ì§¸ ì°ì°(m2)ì ì¬ì©í  ì 2ê° (ëìì¼ë¡ êµ¬ë¶) : ");
+	printf("\n두번째 연산(m2)에 사용할 수 2개 (띄움으로 구분) : ");
 	scanf("%d %d", &k, &l);
 
 	printf("\n Plus \n");
@@ -27,7 +27,7 @@ main()
 	r1=Plus(i,j);
 	r2=Plus(k,l);
 
-	printf("m%d ì´ ë í¬ê±°ë ê°ì.\n\n", Relation(r1,r2));
+	printf("m%d 이 더 크거나 같음.\n\n", Relation(r1,r2));
 
 	
 	printf("\n Minus \n");
@@ -35,7 +35,7 @@ main()
         r1=Minus(i,j);
         r2=Minus(k,l);
 
-        printf("m%d ì´ ë í¬ê±°ë ê°ì.\n\n", Relation(r1,r2));
+        printf("m%d 이 더 크거나 같음.\n\n", Relation(r1,r2));
 
 
         printf("\n Multip \n");
@@ -43,7 +43,7 @@ main()
         r1=Multip(i,j);
         r2=Multip(k,l);
 
-        printf("m%d ì´ ë í¬ê±°ë ê°ì.\n\n", Relation(r1,r2));
+        printf("m%d 이 더 크거나 같음.\n\n", Relation(r1,r2));
 
 
         printf("\n Divide \n");
@@ -73,7 +73,7 @@ float Multip (int n1, int n2)
 
 float Divide (int n1, int n2)
 {
-        printf("%d Ã· %d = (%dÂ·Â·Â·%d =) %d/%d = %dÂ·%d/%d \n", n1,n2,(n1-(n1%n2))/n2,n1%n2, n1, n2, (n1-(n1%n2))/n2, n1%n2 ,n2);
+        printf("%d ÷ %d = (%d···%d =) %d/%d = %d·%d/%d \n", n1,n2,(n1-(n1%n2))/n2,n1%n2, n1, n2, (n1-(n1%n2))/n2, n1%n2 ,n2);
 	return n1/n2;
 }
 

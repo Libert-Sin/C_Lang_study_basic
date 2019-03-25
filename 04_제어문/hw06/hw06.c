@@ -17,15 +17,15 @@ main()
 
 		system("clear");			
 
-		printf("ê³ì° ìì <ì«ì 1 ìë ¥> <ì«ì 2 ìë ¥> <ì°ì° ì í> <ëµ ì¶ë ¥>\n\n");
+		printf("계산 순서 <숫자 1 입력> <숫자 2 입력> <연산 선택> <답 출력>\n\n");
 	
-		printf("ì«ì ìë ¥\n > ");
+		printf("숫자 입력\n > ");
 		scanf("%d", &n1);getchar();
 	
-		printf("ì«ì ìë ¥\n > ");
+		printf("숫자 입력\n > ");
 		scanf("%d", &n2);getchar();
 	
-		printf("ì°ì° ì í < ë§ì:1 / ëºì:2 / ê³±ì:3 / ëëì:4 / ì ê³±:5 >\n > ");
+		printf("연산 선택 < 덧샘:1 / 뺄셈:2 / 곱셈:3 / 나눗셈:4 / 제곱:5 >\n > ");
 		scanf("%d", &e);getchar();
 	
 		switch (e)
@@ -41,7 +41,7 @@ main()
 			case 5:
 				r=J(n1,n2);break;
 			default:
-				printf("ìëª»ë ìë ¥ìëë¤.\n\n"); 
+				printf("잘못된 입력입니다.\n\n"); 
 				e=0;break;
 	
 		}
@@ -52,7 +52,7 @@ main()
 		else if(e!=4)
 			printf("= %d\n\n", r);
 
-	printf("ì¢ë£ : 1 / ë¤ì : 2  > ");
+	printf("종료 : 1 / 다시 : 2  > ");
 	scanf("%d", &c);getchar();
 
 	if(c==1)
@@ -60,7 +60,7 @@ main()
 
 	}
 
-	printf("ê³ì°ê¸°ë¥¼ ì¢ë£í©ëë¤\n\n");
+	printf("계산기를 종료합니다\n\n");
 }
 
 int D(int n1, int n2)
@@ -83,7 +83,7 @@ int G(int n1, int n2)
 
 int N(int n1, int n2)
 {
-	printf("%d / %d = %dÂ·Â·Â·%d\n", n1, n2, (n1-(n1%n2))/n2, n1%n2);
+	printf("%d / %d = %d···%d\n", n1, n2, (n1-(n1%n2))/n2, n1%n2);
 }
 
 int J(int n1, int n2)

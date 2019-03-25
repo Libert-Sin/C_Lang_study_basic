@@ -12,12 +12,12 @@ main()
 
 
 
-	printf("ì«ì 5ê° ìë ¥ : ");
+	printf("숫자 5개 입력 : ");
 
 	for(i=0;i<5;i++)
 		scanf("%d", &arr[i]);
 
-	printf("ìë ¥í ì«ìë \n > ");
+	printf("입력한 숫자는 \n > ");
 	
 	for(i=0;i<5;i++)
 		printf("%d ", arr[i]);
